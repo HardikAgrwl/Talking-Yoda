@@ -4,7 +4,7 @@ var btnClear = document.querySelector('#clear');
 var output = document.querySelector('#output');
 
 
-var serverLink = 'https://api.funtranslations.com/translate/minion.json';
+var serverLink = 'https://api.funtranslations.com/translate/yoda.json';
 
 function getServerLink(text){
     return serverLink + '?text=' + text;
